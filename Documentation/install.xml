@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Install>
+    <Service>
+        <Path>se.cambiosys.client.trainingclient</Path>
+        <Version>1.0.0</Version>
+    </Service>
+    <Access Base="se.cambiosys">
+        <Access Active="true">
+            <Path>client.trainingclient.AccessPermission</Path>
+            <Value>AllowRead</Value>
+            <Value>AllowWrite</Value>
+        </Access>
+    </Access>
+</Install>
